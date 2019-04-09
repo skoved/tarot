@@ -2,7 +2,7 @@
 The goal is to make a web app that lets you connect with a friend and do a tarot reading for them
 
 ## Requirements
-* node.js version 10 (I'm running version 10.5.3)
+* node.js version 10 (I'm running version 10.15.3)
 
 ## To run
 * in the base folder of the project (tarot) execute: npm install
