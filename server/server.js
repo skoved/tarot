@@ -2,12 +2,11 @@
 "use strict";
 
 const express = require('express');
-const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 5000;
 
 // the GET route
-app.get('/hello', cors(), (req, res) => {
+app.get('/hello', (req, res) => {
 	res.send({ express: 'hello world! :)'});
 });
 
